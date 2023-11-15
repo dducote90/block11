@@ -1,0 +1,33 @@
+nav a { 
+    float: left;
+    box-shadow: 0 0 12px -2px black;
+    display: flex;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 0.5%;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 10%;
+    background-color: aqua;
+    }
+
+    nav a:hover { 
+        background-color: aquamarine;
+    }
+   body {
+    background-color: blueviolet;
+   }
+   div {
+    display: flex;
+    align-content: center;
+   }
+   h1 {
+    display: flex;
+    padding: 1%;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 1rem;
+   }
+   button {
+    margin-right: 25px;
+   }

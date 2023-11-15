@@ -1,0 +1,56 @@
+
+
+body {
+    background-color: blueviolet;
+}
+
+
+nav a { 
+    float: left;
+    box-shadow: 0 0 12px -2px black;
+    display: flex;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 0.5%;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 10%;
+    background-color: aqua;
+    }
+
+    nav a:hover { 
+        background-color: aquamarine;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;}
+
+    img {
+        max-width: 75%;
+        height: auto;
+        border-radius: 1rem 1rem 1rem 1rem;
+    }
+
+
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+}
+
+@media (max-witdh:500px){ .nav1 {
+    flex-direction: column !important;
+}
+
+
+}
